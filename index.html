@@ -11,7 +11,6 @@
 </head>
 <body>
 
-    <!-- Header -->
     <header class="navbar">
         <div class="logo">
             <i class="bi bi-rocket-takeoff-fill text-primary"></i> LearnWeb
@@ -25,7 +24,7 @@
         </nav>
 
         <div class="nav-buttons">
-            <a href="#" class="signin">Sign In</a>
+            <a href="#form-signin" class="signin">Sign In</a>
             <button class="btn-primary">Get Started</button>
         </div>
     </header>
@@ -265,7 +264,7 @@
 
                 <div class="col-lg-7">
                     <div class="contact-card">
-                        <form>
+                        <form id="form-signin">
                             <div class="mb-3">
                                 <label class="form-label fw-bold small">Full Name</label>
                                 <input type="text" class="form-control" placeholder="John Doe">
@@ -278,9 +277,10 @@
                                 <label class="form-label fw-bold small">Subject</label>
                                 <select class="form-select">
                                     <option selected>Select a subject</option>
-                                    <option value="1">General Inquiry</option>
-                                    <option value="2">Technical Support</option>
-                                    <option value="3">Billing</option>
+                                    <option value="1">Sign In</option>
+                                    <option value="2">General Inquiry</option>
+                                    <option value="3">Technical Support</option>
+                                    <option value="4">Billing</option>
                                 </select>
                             </div>
                             <div class="mb-4">
